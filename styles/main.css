@@ -1,5 +1,5 @@
 body {
-    font-family: "Segoe UI", "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    font-family: "Segoe UI Light", "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
     color: white;
     margin: 0;
     height: 100%;
@@ -12,11 +12,12 @@ body {
     height: 100%;
     margin: 0 auto;
     text-align: center;
-}
+} 
 
 a {
     text-decoration: none;
     color: white;
+
 }
 
 nav {
@@ -25,13 +26,30 @@ nav {
 }
 
 ul {
-    display: inline;
+    display: inline-block;
     list-style-type: none;
-    background-color: red;
-
 }
 
 li {
     float: left;
-    background-color:blue;
+    padding: 0px 50px 0px;
+    
+}
+
+header {
+    background-color: yellow;
+}
+
+
+img{
+    display: block;
+    background-color: red;
+    width:"100px";
+    height:"100px";
+    border: 3px solid black;
+}
+
+#logo{
+    text-align: center;
+    background-color: red;
 }
