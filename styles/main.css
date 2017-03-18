@@ -9,7 +9,7 @@ body {
 
 #wrapper {
     width: 100%;
-    height 100%;
+    height: 100%;
     margin: 0 auto;
     text-align: center;
 }
@@ -22,14 +22,16 @@ a {
 nav {
     background-color: rgba(0,0,0,0.7);
     height: 40px;
-
 }
 
 ul {
     display: inline;
     list-style-type: none;
+    background-color: red;
+
 }
 
 li {
     float: left;
+    background-color:blue;
 }
