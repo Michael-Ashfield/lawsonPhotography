@@ -1,7 +1,35 @@
-body{
+body {
+    font-family: "Segoe UI", "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    color: white;
     margin: 0;
     height: 100%;
     width: 100%;
     background:black url(/images/city_drop.jpg) no-repeat;
 }
 
+#wrapper {
+    width: 100%;
+    height 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    background-color: rgba(0,0,0,0.7);
+    height: 40px;
+
+}
+
+ul {
+    display: inline;
+    list-style-type: none;
+}
+
+li {
+    float: left;
+}
