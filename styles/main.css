@@ -4,7 +4,7 @@ body {
     margin: 0;
     height: 100%;
     width: 100%;
-    background:black url(/images/city_drop.jpg) no-repeat;
+    background:black url(/images/camera_front.jpg) no-repeat;
     background-size: cover;                      
     background-repeat: no-repeat;
 }
@@ -62,11 +62,11 @@ li {
 /* Content */
 h1 {
     font-size: 46px;
-    padding-top: 120px;
+    padding-top: 20px;
 }
 
 .logo{
-    margin-top: 120px;
+    margin-top: 80px;
 }
 
 .cta {
@@ -74,12 +74,11 @@ h1 {
     cursor: pointer;
     display: inline-block;
     font-family: inherit;
-    margin-top: 120px;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.7);
+    margin-top: 20px;
+    background-color: transparent;
     border: none;
     padding: 25px 43px;
     color: white;
     text-align: center;
-    font-size: 22px;
+    font-size: 30px;
 }
