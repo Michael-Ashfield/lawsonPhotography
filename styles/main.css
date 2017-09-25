@@ -45,11 +45,11 @@ li {
     cursor: pointer;
     display: block;
     background-color: transparent;
-    padding: 10px 60px;
+    padding: 1vh 4vw;
     border: none;
     color: inherit;
     font-family: inherit;
-    font-size: 16px;
+    font-size: 1em;
 }
 
 .nav-item:hover{
@@ -61,12 +61,12 @@ li {
 
 /* Content */
 h1 {
-    font-size: 46px;
-    padding-top: 20px;
+    font-size: 3em;
+    padding-top: 2%;
 }
 
 .logo{
-    margin-top: 80px;
+    margin-top: 2%;
 }
 
 .cta {
@@ -74,11 +74,10 @@ h1 {
     cursor: pointer;
     display: inline-block;
     font-family: inherit;
-    margin-top: 20px;
+    margin-top: 1%;
     background-color: transparent;
     border: none;
-    padding: 25px 43px;
     color: white;
     text-align: center;
-    font-size: 30px;
+    font-size: 1.5em;
 }
